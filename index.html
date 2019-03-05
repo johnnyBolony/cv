@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Yonatan goel's web page, containing his diffrent projects in web design and other details such as his CV and more...">
+        <!-- Font Awesome Icon Library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <title>Yonatan Goel's CV</title>
+        <style type="text/css">
+
+            td { 
+                padding: 10px;
+            }
+
+            .checked {
+                color: dodgerblue;
+            }
+
+            @-webkit-keyframes pulse  
+            {
+                0% {background-color: #45CEEF;} 
+                25% {background-color: #FFF5A5;}
+                50% {background-color: #FFD4DA;}
+                75% {background-color: #99D2E4;}
+                100% {background-color: #D8CAB4;}
+            }
+
+
+
+            li.joblist:hover {
+
+                color: black;
+                font-weight: bold;
+
+                /* -webkit-transition: border-radius 2s;*/
+                -webkit-animation: pulse 6s infinite;
+            }
+
+            div.portfolio:hover{
+                color: black;
+                /*font-size: large;*/
+                font-weight: bold;
+                font-style: italic;
+
+                /*-webkit-transition: border-radius 2s;*/
+                -webkit-animation: pulse 6s infinite;
+
+            }
+
+
+
+            hr
+            {
+
+                border: none;
+                height: 20px;
+                -webkit-animation: pulse 6s infinite;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- NAVBAR  -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio & Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container" id="wholepage">
+
+            <!--           JUMBOTRON           -->
+            <div class="container" id="head">
+
+                <!-- Content  -->
+                <div class="jumbotron text-center">
+                    <h1 class="display-4">Yonatan Goel's CV & Blog !</h1>
+                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum necessitatibus perspiciatis cum vitae, modi hic?</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam.</p>
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Read More</a>
+                </div>
+
+            </div>
+
+            <!--    Basic Info       -->
+            <div class="row">
+                <div class="col-sm" id="blog">
+                    <div class="row">
+                        <div class="col-sm"><h1>CV:</h1>
+                            <hr size="30" noshade align="left" /><!--color=#e99929 -->
+                            <p><b>Yonatan Goel, <br>Currently Resides in Rehovot,<br>Born at 1989 <br>Phone: 054-5322381</b></p></div>
+                        <div class="col-sm"><img src="Capture.PNG" style="border-radius: 50%;"></div>
+
+                    </div>
+
+                    <!--     Work EXpirience               -->
+
+                    <h2>Work Expirience:</h2>
+                    <hr size="30" noshade align="left" width="50%"/>
+
+                    <table cellspacing="10">
+                        <tr>
+                            <th><h5>Work</h5></th>
+                            <th><h5>Description</h5></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Tech Support at "Internet Rimon" (isp company) <br> 2018 - Ongoing.</p>
+                            </td>
+
+                            <td>
+                                <p>Tech support phone representive, assisting and finding solution for rimon's customers in areas such as: connectivity issues, content filtering, products and Router configuaration.</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>Salesman & shift manager at "Sport Wertheimer" <br> 2016-2017</p></td>
+                            <td>
+                                <p>
+                                    Assisting customers in the sport equipment shop to find the right equipment for their physical-activity needs
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><p>Line Cook at various kitchens in tel aviv <br> 2011 - 2016</p></td>
+                            <td>Worked in various vegan restaurants such as "nanuchka","zakaim","The green cat vegan pizza" and "The vegan shawarma"</td>
+                        </tr>
+
+                    </table>
+
+                    <!--                   skills table -->
+                    
+<!--                    
+                    <h2>Skills:</h2>
+                    <hr size="30" noshade align="left" width="50%"/>
+                    <table cellspacing="10">
+                       <thead>
+                            <tr>
+                                <th cellspace="100px;"><h5>Language</h5></th>
+                                <th><h5>Level</h5></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><p>Html</p></td>
+                                <td><p><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-half checked"></span></p></td>
+                            </tr>
+                            <tr>
+                                <td><p>CSS</p></td>
+                                <td><p><span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star-half checked"></span>
+                        </span></p></td>
+                    </tr>
+                    <tr>
+                    <td><p>BootStrap</p></td>
+                    <td><p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></p></td>
+                </tr>
+                <tr>
+                    <td><p>JavaScript</p></td>
+                    <td><p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></p></td>
+                </tr>
+                <tr>
+                    <td><p>jQuery</p></td>
+                    <td><p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></p></td>
+                </tr>
+                <tr>
+                    <td><p>PHP</p></td>
+                    <td><p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></p></td>
+                </tr>
+                <tr>
+                    <td><p>C language</p></td>
+                    <td><p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        </p></td>
+                </tr>
+                <tr>
+                    <td><p>Java</p></td>
+                    <td><p><span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked">
+                            <span class="fa fa-star-half checked"></span></p></td>
+                </tr>
+                <tr>
+                    <td><p>Assembly</p></td>
+                    <td><p><span class="fa fa-star checked"></span></p></td>
+                    
+                </tr>
+                
+                </tbody>
+                   
+                           
+                        
+            </table>
+
+-->
+
+
+
+
+        </div>
+
+    <!--                Portfolio         -->
+    <div class="col-md" id="portfolio">
+
+        <h1 align="right">Portfolio:</h1>
+        <hr size="30" noshade align="right" width="50%">
+        <p>This section will include front-end & back-end projects</p>
+        <div class="card-columns">
+            <div class="card portfolio">
+                <a href="https://source.unsplash.com/random/300x200"><img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt=""></a>
+                <div class="card-body">
+                    <h4 class="card-title">Project #1</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
+                        is a little bit longer.</p>
+                </div>
+            </div>
+
+            <div class="card portfolio">
+                <img class="card-img-top" src="https://source.unsplash.com/random/301x200" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Project #2</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card text-center portfolio">
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/302x200" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Project #3</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="about Me">
+
+        <div class="row">
+
+
+            <!--About Me         -->
+            <div class="col-md">
+                <center>
+                    <h1>About Me</h1>
+                    <hr noshade color=#1948cc>
+                    <p>
+                        My name's Yonatan goel, i'm a 29 year old guy, who happens to be a programmer as well. 
+                        <br>
+                        I'm a second year student at ort college in rehovot city, i study practical engineering in software.
+                        <br>
+                        From my studies i gained deep expirience with C language, Java, and now we start to learn assembly machien code as well.
+                        <br>
+                        My current job is a tech support phone representive for "internet rimon" isp company. (internet service provider for the more religious sectors of israel, who yearn for a filtered & safe browsing).
+                        <br>
+                        I apriciate my work, because i have fair minded, pleasent and helpful managers in my work, thus resulting in a good team atmosphere among the co-workers overall.
+                        <br>
+                        However in my free time i drive myself to learn web development as well, as this is my ambition - To becoem a Web Developer, perhaps even to lead a company of my own one day.
+                        <br>
+                        Other things that i find to be my hobbies are:
+                    <ul>
+                        <li>Running and playing with my beloved dog "Nana".</li>
+                        <li>Meditation & Reading spiritual books.</li>
+                        <li>Going to little field trips when time allows it.</li>
+                    </ul>
+                    </p>
+                </center>
+        </div>
+
+        <!--caorusel with my pics here -->
+        <div id="slider3" class="carousel slide mb-5 col-sm" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="" data-target="#slider3" data-slide-to="0"></li>
+                <li data-target="#slider3" data-slide-to="1" class=""></li>
+                <li data-target="#slider3" data-slide-to="2" class="active"></li>
+
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="https://source.unsplash.com/wgq4eit198Q/700x400" alt="First Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="https://source.unsplash.com/WLUHO9A_xik/700x400" alt="Second Slide">
+                </div>
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="https://source.unsplash.com/4yta6mU66dE/700x400" alt="Third Slide">
+                </div>
+            </div>
+            <!-- controls -->
+            <a href="#slider3" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider3" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- Contact Me -->
+    <form class="container" id="contact" action="mailto:ctexyg@gmail.com" method="post">
+        <h1>Contact Me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae earum necessitatibus laudantium tempora esse. Hic at, officia harum voluptatum voluptas officiis velit quam? Quae illum laboriosam minima, obcaecati dignissimos amet!</p>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input class="form-control" type="text" id="name" placeholder="Enter name" name="Name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input class="form-control form-control-lg" type="email" id="email" placeholder="Enter email" name="Email">
+            <small class="form-text text-muted">Your Email Will Not Ever Be Shared</small>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3" name="Messege"></textarea>
+        </div>
+        <button class="btn btn-primary btn-block" type="submit">Submit</button>
+    </div>
+    </form>
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!--jquery library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<!--popperjs library -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--bootstrap css -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--bootstrap js -->
+</body>
+</html>
